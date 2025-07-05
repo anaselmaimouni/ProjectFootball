@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    text-align: center;
+    color: rgb(112, 12, 12);
+    list-style: none;
+    background-color: rgb(228, 67, 67);
+}
+
+nav li {
+    display: inline-block;
+    padding: 30px;
+    font-size: medium;
+    font-weight: 200;
+}
+li:hover{
+    background-color: rgba(68, 67, 67, 0.986);
+}
+ul li a{
+    color:rgba(255, 255, 255, 0.986) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("image/kid.jpg.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.test{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/ff.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sign-up-form{
+    width: 300px;
+    box-shadow: 0 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.sign-up-form h1{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signup-btn{
+    background-color: #1c8adb;
+} 
+.xd{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/TIME.jpg);  
+    background-size: cover;
+    background-position: center; 
+}
+table,th,td{
+    color: rgb(0, 0, 0);
+    width: 800px;
+    margin: auto;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid  rgb(0, 0, 0) ;
+    border-collapse: collapse;
+}
+.nft{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+   
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/cc.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.contact-section{
+    color: rgba(0, 0, 0, 0.781);
+    max-width: 600px;
+    line-height: 55px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+.htt{
+    height: 100vh;
+    width: 100%;
+  background-color: gray;
+}
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.cc
+{
+    background:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.ppp
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(255, 255, 255);
+    margin: 70px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0 ,0 ,0 ,0.15);
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.contactInfo
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight:600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo ul
+{
+    position: relative;
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;    
+}
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #66ff33;
+
+}
+.contactInfo ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
+.contactInfo.education li
+{
+    margin-bottom: 20px;
+}
+.contactInfo.education h5
+{
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+
+.contactInfo.education h4
+{
+    color: #fff;
+    font-weight: 500;
+}
+.profileText .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    overflow: hidden;
+}
+.profileText .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.ppp .left_side
+{
+    position: relative;
+    background: #000099;
+    padding: 40px;
+}
+.ppp .right_side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.title2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color: #333;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .year_company
+{
+    min-width: 150px;
+}
+.about .box .year_company h5
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.about .box .text h4
+{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
